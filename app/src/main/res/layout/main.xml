@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cti.roundedprogressbar.Main">
+
+    <com.cti.roundedprogressbar.widget.CustomProgressBar
+        android:id="@+id/CustomProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:colorBar="@color/colorGray"
+        app:colorBar_progress="@color/colorAccent"
+        app:colorBar_text="@color/colorPrimary"
+        app:smallText="Small text"
+        />
+
+</android.support.constraint.ConstraintLayout>
